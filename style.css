@@ -1,0 +1,78 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+h1{
+    font-size: 50px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-width img{
+ width: 100%;
+}
+.btn-style
+{
+    font-weight: 10px;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    text-decoration: none;
+    padding: 10px 20px;
+    color: azure;
+    border-radius: 10px;
+
+}
+.header{
+    background-image: url("img/top-banner.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    
+}
+p{
+    color:dimgray;
+}
+.second-header{
+    background-image: url("img/dream-bg.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    background-position: right;
+
+}
+.last-part{
+    height: 500px;
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-position: left;
+}
+.prodev{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    height: 280px;
+    background-color: white;
+  
+}
+.babydev{
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 10px;
+    height: 280px;
+    background-color: white;
+}
+h3{
+    color: tomato;
+}
+#fullstack{
+  border-left: 7px solid;
+  border-image: linear-gradient(180deg, lightSalmon,tomato);
+  border-image-slice: 1;
+  
+}
+#babyDev{
+    border-left: 7px solid;
+  border-image: linear-gradient(180deg, blue, cyan);
+  border-image-slice: 1;
+}
